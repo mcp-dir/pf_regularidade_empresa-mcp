@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/pf_regularidade_empresa-mcp",
+  "title": "Polícia Federal: Situação e Regularidade de Empresa de Segurança Privada",
+  "description": "Polícia Federal: Situação e Regularidade de Empresa de Segurança Privada, official-source lookup. Pl",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/pf_regularidade_empresa-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_pf_regularidade_empresa"
+    }
+  ]
+}
